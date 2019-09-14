@@ -15,4 +15,8 @@ func main() {
 
 	fmt.Println(myArray)
 	fmt.Println(myArray[2])
+
+	my2ndArray := [3]int{18, 25, 30}
+	fmt.Println(my2ndArray)
+
 }
