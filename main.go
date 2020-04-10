@@ -23,7 +23,7 @@ func main() {
 
 	// here the "..." tells golang to work out the array length for
 	// us based on the number or values provided.
-	// This technique is referred to as array literals.
+	// This technique is referred to as array literals
 	stooges := [...]string{"Moe", "Larry", "Curly", "charlie"}
 	fmt.Println(reflect.TypeOf(stooges)) // [4]string
 	fmt.Println(len(stooges))            // 4
